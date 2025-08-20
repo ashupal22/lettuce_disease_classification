@@ -1,0 +1,85 @@
+{
+  "data": {
+    "raw_data_dir": "data/raw/Lettuce_disease_datasets",
+    "processed_data_dir": "data/processed",
+    "img_size": 224,
+    "test_size": 0.2,
+    "validation_size": 0.1,
+    "class_names": [
+      "Bacterial",
+      "Downy_mildew_on_lettuce",
+      "Healthy",
+      "Powdery_mildew_on_lettuce",
+      "Septoria_blight_on_lettuce",
+      "Shepherd_purse_weeds",
+      "Viral",
+      "Wilt_and_leaf_blight_on_lettuce"
+    ],
+    "healthy_class": "Healthy",
+    "weed_class": "Shepherd_purse_weeds"
+  },
+  "classical_ml": {
+    "lbp_radius": 3,
+    "lbp_n_points": 24,
+    "glcm_distances": [
+      5
+    ],
+    "glcm_angles": [
+      0,
+      0.7853981633974483,
+      1.5707963267948966,
+      2.356194490192345
+    ],
+    "color_hist_bins": 32,
+    "random_forest_n_estimators": 100,
+    "svm_kernel": "rbf",
+    "cv_folds": 3,
+    "models_dir": "models/classical_ml"
+  },
+  "deep_learning": {
+    "num_classes_binary": 1,
+    "num_classes_disease": 6,
+    "dropout_rate": 0.5,
+    "batch_size": 32,
+    "epochs": 10,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "rotation_degrees": 20,
+    "horizontal_flip_prob": 0.5,
+    "crop_scale_min": 0.8,
+    "crop_scale_max": 1.0,
+    "focal_loss_gamma_pos": 1.0,
+    "focal_loss_gamma_neg": 4.0,
+    "models_dir": "models/deep_learning",
+    "device": "cuda"
+  },
+  "evaluation": {
+    "metrics": [
+      "accuracy",
+      "precision",
+      "recall",
+      "f1",
+      "confusion_matrix"
+    ],
+    "confusion_matrix_figsize": [
+      12,
+      10
+    ],
+    "classification_report_digits": 4,
+    "plot_confusion_matrix": true,
+    "plot_training_curves": true,
+    "plot_feature_importance": true,
+    "save_plots": true,
+    "results_dir": "results",
+    "plots_dir": "results/plots",
+    "reports_dir": "results/reports",
+    "metrics_dir": "results/metrics"
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "log_file": "results/logs/training.log",
+    "console_output": true
+  },
+  "seed": 42
+}

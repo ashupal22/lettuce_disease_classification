@@ -1,0 +1,23 @@
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+scikit-learn>=1.0.0
+scikit-image>=0.19.0
+opencv-python>=4.5.0
+Pillow>=8.0.0
+tqdm>=4.62.0
+joblib>=1.1.0
+
+# Optional dependencies
+plotly>=5.0.0
+ipywidgets>=7.6.0
+jupyter>=1.0.0
+
+# Development dependencies
+pytest>=6.0.0
+black>=21.0.0
+flake8>=4.0.0
+isort>=5.0.0

@@ -1,0 +1,21 @@
+{
+  "data": {
+    "raw_data_dir": "data/raw/Lettuce_disease_datasets",
+    "img_size": 224,
+    "test_size": 0.2
+  },
+  "classical_ml": {
+    "random_forest_n_estimators": 100,
+    "cv_folds": 3
+  },
+  "deep_learning": {
+    "epochs": 10,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "device": "auto"
+  },
+  "evaluation": {
+    "save_plots": true,
+    "plot_confusion_matrix": true
+  }
+}

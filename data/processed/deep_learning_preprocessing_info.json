@@ -1,0 +1,36 @@
+{
+  "pipeline_type": "deep_learning",
+  "config": {
+    "img_size": 224,
+    "test_size": 0.2,
+    "class_names": [
+      "Bacterial",
+      "Downy_mildew_on_lettuce",
+      "Healthy",
+      "Powdery_mildew_on_lettuce",
+      "Septoria_blight_on_lettuce",
+      "Shepherd_purse_weeds",
+      "Viral",
+      "Wilt_and_leaf_blight_on_lettuce"
+    ],
+    "healthy_idx": 2,
+    "weed_idx": 5,
+    "disease_indices": [
+      0,
+      1,
+      3,
+      4,
+      6,
+      7
+    ]
+  },
+  "timestamp": "2025-08-20T14:10:08.968950",
+  "dataset_sizes": {
+    "train_ds1": 1869,
+    "train_ds2": 992,
+    "train_ds3": 88,
+    "test_ds1": 468,
+    "test_ds2": 239,
+    "test_ds3": 20
+  }
+}

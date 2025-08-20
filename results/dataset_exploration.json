@@ -1,0 +1,553 @@
+{
+  "structure": {
+    "total_classes": 8,
+    "total_images": 2337,
+    "class_info": {
+      "Bacterial": {
+        "count": 20,
+        "files": [
+          "bct (10).jpg",
+          "bct (14).jpg",
+          "bct (19).jpg",
+          "bct (20).jpg",
+          "bct (6).jpg",
+          "bct (4).jpg",
+          "bct (12).jpg",
+          "bct (7).jpg",
+          "bct (3).jpg",
+          "bct (16).jpg"
+        ],
+        "directory_exists": true
+      },
+      "Downy_mildew_on_lettuce": {
+        "count": 30,
+        "files": [
+          "dml (6).jpg",
+          "dml (22).jpg",
+          "dml (23).jpg",
+          "dml (18).jpg",
+          "dml (29).jpg",
+          "dml (11).jpg",
+          "dml (5).jpg",
+          "dml (21).jpg",
+          "dml (14).jpg",
+          "dml (17).jpg"
+        ],
+        "directory_exists": true
+      },
+      "Healthy": {
+        "count": 1123,
+        "files": [
+          "h (670).JPG",
+          "h (935).JPG",
+          "h (472).JPG",
+          "h (1007).JPG",
+          "h (190).JPG",
+          "h (184).JPG",
+          "h (640).JPG",
+          "h (367).JPG",
+          "h (740).JPG",
+          "h (175).JPG"
+        ],
+        "directory_exists": true
+      },
+      "Powdery_mildew_on_lettuce": {
+        "count": 18,
+        "files": [
+          "pml (11).jpg",
+          "pml (15).jpg",
+          "pml (14).jpg",
+          "pml (6).jpg",
+          "pml (16).jpg",
+          "pml (1).jpg",
+          "pml (18).jpg",
+          "pml (2).JPG",
+          "pml (9).jpg",
+          "pml (12).jpg"
+        ],
+        "directory_exists": true
+      },
+      "Septoria_blight_on_lettuce": {
+        "count": 19,
+        "files": [
+          "sbl (14).jpg",
+          "sbl (9).jpg",
+          "sbl (3).jpg",
+          "sbl (17).jpg",
+          "sbl (13).jpg",
+          "sbl (5).jpg",
+          "sbl (15).jpg",
+          "sbl (7).jpg",
+          "sbl (12).jpg",
+          "sbl (4).jpg"
+        ],
+        "directory_exists": true
+      },
+      "Shepherd_purse_weeds": {
+        "count": 1106,
+        "files": [
+          "spw (48).jpg",
+          "spw (740).jpg",
+          "spw (343).jpg",
+          "spw (1067).jpg",
+          "spw (145).jpg",
+          "spw (445).jpg",
+          "spw (696).jpg",
+          "spw (433).jpg",
+          "spw (205).jpg",
+          "spw (420).jpg"
+        ],
+        "directory_exists": true
+      },
+      "Viral": {
+        "count": 15,
+        "files": [
+          "vrl (13).jpg",
+          "vrl (8).jpg",
+          "vrl (12).jpg",
+          "vrl (5).jpg",
+          "vrl (9).jpg",
+          "vrl (14).jpg",
+          "vrl (1).jpg",
+          "vrl (10).jpg",
+          "vrl (6).jpg",
+          "vrl (4).jpg"
+        ],
+        "directory_exists": true
+      },
+      "Wilt_and_leaf_blight_on_lettuce": {
+        "count": 6,
+        "files": [
+          "wlbl (1).jpg",
+          "wlbl (5).jpg",
+          "wlbl (6).jpg",
+          "wlbl (2).jpg",
+          "wlbl (3).jpg",
+          "wlbl (4).jpg"
+        ],
+        "directory_exists": true
+      }
+    },
+    "class_distribution": {
+      "Bacterial": 20,
+      "Downy_mildew_on_lettuce": 30,
+      "Healthy": 1123,
+      "Powdery_mildew_on_lettuce": 18,
+      "Septoria_blight_on_lettuce": 19,
+      "Shepherd_purse_weeds": 1106,
+      "Viral": 15,
+      "Wilt_and_leaf_blight_on_lettuce": 6
+    },
+    "healthy_images": 1123,
+    "weed_images": 1106,
+    "disease_images": 108,
+    "imbalance_ratio": 187.16666666666666
+  },
+  "images": {
+    "total_analyzed": 208,
+    "width_stats": {
+      "mean": 926.4086538461538,
+      "std": 921.4617313948045,
+      "min": 63.0,
+      "max": 4032.0,
+      "median": 474.0,
+      "q25": 279.75,
+      "q75": 1220.0
+    },
+    "height_stats": {
+      "mean": 932.6105769230769,
+      "std": 1090.7141834964998,
+      "min": 63.0,
+      "max": 4032.0,
+      "median": 380.5,
+      "q25": 257.75,
+      "q75": 975.0
+    },
+    "aspect_ratio_stats": {
+      "mean": 1.2056420593084176,
+      "std": 0.3892258013179766,
+      "min": 0.35857289527720737,
+      "max": 3.0310077519379846,
+      "median": 1.312741719066537,
+      "q25": 0.9582431683749124,
+      "q75": 1.494402985074627
+    },
+    "file_size_stats": {
+      "mean": 0.355339384995974,
+      "std": 0.5815346507033797,
+      "min": 0.0010843276977539062,
+      "max": 2.346257209777832,
+      "median": 0.04116487503051758,
+      "q25": 0.018146991729736328,
+      "q75": 0.31700658798217773
+    },
+    "mode_distribution": {
+      "RGB": 208
+    },
+    "format_distribution": {
+      "JPEG": 206,
+      "PNG": 1,
+      "WEBP": 1
+    },
+    "class_specific": {
+      "Bacterial": {
+        "sample_size": 20,
+        "width_stats": {
+          "mean": 452.25,
+          "std": 65.28236745094344,
+          "min": 250.0,
+          "max": 474.0,
+          "median": 474.0,
+          "q25": 474.0,
+          "q75": 474.0
+        },
+        "height_stats": {
+          "mean": 352.75,
+          "std": 60.49865700988742,
+          "min": 188.0,
+          "max": 474.0,
+          "median": 351.0,
+          "q25": 316.0,
+          "q75": 383.25
+        },
+        "aspect_ratio_stats": {
+          "mean": 1.3058862422284852,
+          "std": 0.21176661024663818,
+          "min": 0.6641414141414141,
+          "max": 1.5192307692307692,
+          "median": 1.3352112676056338,
+          "q25": 1.2372371471975694,
+          "q75": 1.4790372670807455
+        },
+        "file_size_stats": {
+          "mean": 0.031247377395629883,
+          "std": 0.006318768827642306,
+          "min": 0.015743255615234375,
+          "max": 0.047745704650878906,
+          "median": 0.030681133270263672,
+          "q25": 0.02828192710876465,
+          "q75": 0.034455060958862305
+        },
+        "most_common_mode": "RGB",
+        "most_common_format": "JPEG"
+      },
+      "Downy_mildew_on_lettuce": {
+        "sample_size": 30,
+        "width_stats": {
+          "mean": 601.8,
+          "std": 288.83344681667324,
+          "min": 194.0,
+          "max": 1292.0,
+          "median": 595.0,
+          "q25": 413.25,
+          "q75": 742.75
+        },
+        "height_stats": {
+          "mean": 454.6333333333333,
+          "std": 251.7431870423154,
+          "min": 183.0,
+          "max": 1390.0,
+          "median": 396.5,
+          "q25": 276.75,
+          "q75": 522.0
+        },
+        "aspect_ratio_stats": {
+          "mean": 1.3618984512344094,
+          "std": 0.27628088293529235,
+          "min": 0.749034749034749,
+          "max": 1.9831223628691983,
+          "median": 1.353163770698138,
+          "q25": 1.3141222011807954,
+          "q75": 1.50376254180602
+        },
+        "file_size_stats": {
+          "mean": 0.1047726313273112,
+          "std": 0.0968243670841953,
+          "min": 0.0060100555419921875,
+          "max": 0.35184383392333984,
+          "median": 0.06099700927734375,
+          "q25": 0.029043197631835938,
+          "q75": 0.15664052963256836
+        },
+        "most_common_mode": "RGB",
+        "most_common_format": "JPEG"
+      },
+      "Healthy": {
+        "sample_size": 50,
+        "width_stats": {
+          "mean": 2412.14,
+          "std": 642.6173981460508,
+          "min": 1397.0,
+          "max": 4032.0,
+          "median": 2277.5,
+          "q25": 1940.75,
+          "q75": 2720.75
+        },
+        "height_stats": {
+          "mean": 2741.96,
+          "std": 712.6592442394893,
+          "min": 1317.0,
+          "max": 4032.0,
+          "median": 2859.5,
+          "q25": 2281.25,
+          "q75": 3203.0
+        },
+        "aspect_ratio_stats": {
+          "mean": 0.9433473093301481,
+          "std": 0.35024376516225525,
+          "min": 0.35857289527720737,
+          "max": 2.296127562642369,
+          "median": 0.8829915371129409,
+          "q25": 0.6535815701111753,
+          "q75": 1.192631722995733
+        },
+        "file_size_stats": {
+          "mean": 1.3107799148559571,
+          "std": 0.43486438904065644,
+          "min": 0.4826784133911133,
+          "max": 2.346257209777832,
+          "median": 1.2723708152770996,
+          "q25": 0.9866509437561035,
+          "q75": 1.6695857048034668
+        },
+        "most_common_mode": "RGB",
+        "most_common_format": "JPEG"
+      },
+      "Powdery_mildew_on_lettuce": {
+        "sample_size": 18,
+        "width_stats": {
+          "mean": 621.8888888888889,
+          "std": 246.32406137013197,
+          "min": 252.0,
+          "max": 1200.0,
+          "median": 630.0,
+          "q25": 418.25,
+          "q75": 795.75
+        },
+        "height_stats": {
+          "mean": 461.72222222222223,
+          "std": 261.4134242824223,
+          "min": 129.0,
+          "max": 1200.0,
+          "median": 440.0,
+          "q25": 261.5,
+          "q75": 520.5
+        },
+        "aspect_ratio_stats": {
+          "mean": 1.4858315943901397,
+          "std": 0.42250346937803995,
+          "min": 0.75,
+          "max": 3.0310077519379846,
+          "median": 1.5,
+          "q25": 1.3333333333333333,
+          "q75": 1.5057316645221663
+        },
+        "file_size_stats": {
+          "mean": 0.08353657192654079,
+          "std": 0.1144726515351216,
+          "min": 0.005919456481933594,
+          "max": 0.5256710052490234,
+          "median": 0.05270671844482422,
+          "q25": 0.03299832344055176,
+          "q75": 0.08008885383605957
+        },
+        "most_common_mode": "RGB",
+        "most_common_format": "JPEG"
+      },
+      "Septoria_blight_on_lettuce": {
+        "sample_size": 19,
+        "width_stats": {
+          "mean": 598.6842105263158,
+          "std": 339.09105323241937,
+          "min": 225.0,
+          "max": 1200.0,
+          "median": 450.0,
+          "q25": 279.5,
+          "q75": 900.0
+        },
+        "height_stats": {
+          "mean": 432.36842105263156,
+          "std": 205.04048650945313,
+          "min": 177.0,
+          "max": 770.0,
+          "median": 375.0,
+          "q25": 262.0,
+          "q75": 600.0
+        },
+        "aspect_ratio_stats": {
+          "mean": 1.3583213584744516,
+          "std": 0.24256844634849475,
+          "min": 0.695,
+          "max": 1.6101694915254237,
+          "median": 1.3921113689095128,
+          "q25": 1.3484848484848484,
+          "q75": 1.5114213197969542
+        },
+        "file_size_stats": {
+          "mean": 0.06783796611585115,
+          "std": 0.06158295538971581,
+          "min": 0.0074138641357421875,
+          "max": 0.2008533477783203,
+          "median": 0.04275226593017578,
+          "q25": 0.014898300170898438,
+          "q75": 0.10960721969604492
+        },
+        "most_common_mode": "RGB",
+        "most_common_format": "JPEG"
+      },
+      "Shepherd_purse_weeds": {
+        "sample_size": 50,
+        "width_stats": {
+          "mean": 251.4,
+          "std": 151.10976143188105,
+          "min": 63.0,
+          "max": 828.0,
+          "median": 219.0,
+          "q25": 155.5,
+          "q75": 282.75
+        },
+        "height_stats": {
+          "mean": 266.36,
+          "std": 169.13482905658432,
+          "min": 63.0,
+          "max": 828.0,
+          "median": 218.5,
+          "q25": 151.5,
+          "q75": 346.0
+        },
+        "aspect_ratio_stats": {
+          "mean": 1.010719763342113,
+          "std": 0.3067627637946705,
+          "min": 0.4258188824662813,
+          "max": 1.9871794871794872,
+          "median": 1.0,
+          "q25": 0.7819494309067299,
+          "q75": 1.1794435956200662
+        },
+        "file_size_stats": {
+          "mean": 0.023631191253662108,
+          "std": 0.0287540909713065,
+          "min": 0.0010843276977539062,
+          "max": 0.15764522552490234,
+          "median": 0.013844013214111328,
+          "q25": 0.007695436477661133,
+          "q75": 0.02840590476989746
+        },
+        "most_common_mode": "RGB",
+        "most_common_format": "JPEG"
+      },
+      "Viral": {
+        "sample_size": 15,
+        "width_stats": {
+          "mean": 474.0,
+          "std": 0.0,
+          "min": 474.0,
+          "max": 474.0,
+          "median": 474.0,
+          "q25": 474.0,
+          "q75": 474.0
+        },
+        "height_stats": {
+          "mean": 296.53333333333336,
+          "std": 51.021389849966084,
+          "min": 197.0,
+          "max": 379.0,
+          "median": 315.0,
+          "q25": 260.0,
+          "q75": 315.5
+        },
+        "aspect_ratio_stats": {
+          "mean": 1.6534468891581697,
+          "std": 0.32462027527864484,
+          "min": 1.2506596306068603,
+          "max": 2.4060913705583755,
+          "median": 1.5047619047619047,
+          "q25": 1.5023809523809524,
+          "q75": 1.8240483097507547
+        },
+        "file_size_stats": {
+          "mean": 0.028980191548665366,
+          "std": 0.009518019692494254,
+          "min": 0.014982223510742188,
+          "max": 0.04503154754638672,
+          "median": 0.028601646423339844,
+          "q25": 0.02014303207397461,
+          "q75": 0.037018775939941406
+        },
+        "most_common_mode": "RGB",
+        "most_common_format": "JPEG"
+      },
+      "Wilt_and_leaf_blight_on_lettuce": {
+        "sample_size": 6,
+        "width_stats": {
+          "mean": 456.3333333333333,
+          "std": 83.22993585376732,
+          "min": 276.0,
+          "max": 520.0,
+          "median": 474.0,
+          "q25": 474.0,
+          "q75": 508.5
+        },
+        "height_stats": {
+          "mean": 316.5,
+          "std": 69.76806814964374,
+          "min": 183.0,
+          "max": 390.0,
+          "median": 320.5,
+          "q25": 299.75,
+          "q75": 374.25
+        },
+        "aspect_ratio_stats": {
+          "mean": 1.4567897455876915,
+          "std": 0.09870768701715077,
+          "min": 1.3333333333333333,
+          "max": 1.6067796610169491,
+          "median": 1.4788690028575724,
+          "q25": 1.3623853211009174,
+          "q75": 1.5092147854234104
+        },
+        "file_size_stats": {
+          "mean": 0.03243796030680338,
+          "std": 0.015060518878143522,
+          "min": 0.011033058166503906,
+          "max": 0.060364723205566406,
+          "median": 0.028036117553710938,
+          "q25": 0.02739858627319336,
+          "q75": 0.0369877815246582
+        },
+        "most_common_mode": "RGB",
+        "most_common_format": "JPEG"
+      }
+    }
+  },
+  "statistics": {
+    "dataset_size": 2337,
+    "num_classes": 8,
+    "class_balance": {
+      "most_frequent_class": "Healthy",
+      "least_frequent_class": "Wilt_and_leaf_blight_on_lettuce",
+      "imbalance_ratio": 187.16666666666666,
+      "class_percentages": {
+        "Bacterial": 0.8557980316645273,
+        "Downy_mildew_on_lettuce": 1.2836970474967908,
+        "Healthy": 48.0530594779632,
+        "Powdery_mildew_on_lettuce": 0.7702182284980745,
+        "Septoria_blight_on_lettuce": 0.8130081300813009,
+        "Shepherd_purse_weeds": 47.325631151048356,
+        "Viral": 0.6418485237483954,
+        "Wilt_and_leaf_blight_on_lettuce": 0.25673940949935814
+      }
+    },
+    "hierarchical_distribution": {
+      "healthy_percentage": 48.0530594779632,
+      "disease_percentage": 4.621309370988447,
+      "weed_percentage": 47.325631151048356
+    },
+    "class_statistics": {
+      "mean_samples_per_class": 292.125,
+      "std_samples_per_class": 474.85719892932025,
+      "min_samples": 6,
+      "max_samples": 1123
+    }
+  }
+}

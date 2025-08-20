@@ -1,0 +1,9 @@
+Class,Count,Percentage,Type
+Bacterial,20,0.8557980316645273,Disease
+Downy_mildew_on_lettuce,30,1.2836970474967908,Disease
+Healthy,1123,48.0530594779632,Healthy
+Powdery_mildew_on_lettuce,18,0.7702182284980745,Disease
+Septoria_blight_on_lettuce,19,0.8130081300813009,Disease
+Shepherd_purse_weeds,1106,47.325631151048356,Weed
+Viral,15,0.6418485237483954,Disease
+Wilt_and_leaf_blight_on_lettuce,6,0.25673940949935814,Disease

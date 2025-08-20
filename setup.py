@@ -1,0 +1,36 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="lettuce-disease-classification",
+    version="1.0.0",
+    author="Your Name",
+    author_email="your.email@example.com",
+    description="AI system for lettuce disease classification using classical ML and deep learning",
+    long_description=open("README.md").read() if os.path.exists("README.md") else "",
+    long_description_content_type="text/markdown",
+    packages=find_packages(where="src"),
+    package_dir={"": "src"},
+    classifiers=[
+        "Development Status :: 4 - Beta",
+        "Intended Audience :: Science/Research",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+    ],
+    python_requires=">=3.8",
+    install_requires=[
+        "torch>=2.0.0",
+        "torchvision>=0.15.0", 
+        "numpy>=1.21.0",
+        "pandas>=1.3.0",
+        "matplotlib>=3.5.0",
+        "seaborn>=0.11.0",
+        "scikit-learn>=1.0.0",
+        "scikit-image>=0.19.0",
+        "opencv-python>=4.5.0",
+        "Pillow>=8.0.0",
+        "tqdm>=4.62.0",
+        "joblib>=1.1.0",
+    ],
+)

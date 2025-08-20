@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Data files
+data/raw/*
+!data/raw/.gitkeep
+
+# Model files
+models/classical_ml/*.pkl
+models/deep_learning/*.pth
+
+# Results
+results/plots/*.png
+results/plots/*.jpg
+results/reports/*.txt
+results/metrics/*.json
+results/logs/*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/

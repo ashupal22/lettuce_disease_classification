@@ -1,0 +1,36 @@
+{
+  "pipeline_type": "classical_ml",
+  "config": {
+    "img_size": 224,
+    "test_size": 0.2,
+    "class_names": [
+      "Bacterial",
+      "Downy_mildew_on_lettuce",
+      "Healthy",
+      "Powdery_mildew_on_lettuce",
+      "Septoria_blight_on_lettuce",
+      "Shepherd_purse_weeds",
+      "Viral",
+      "Wilt_and_leaf_blight_on_lettuce"
+    ],
+    "healthy_idx": 2,
+    "weed_idx": 5,
+    "disease_indices": [
+      0,
+      1,
+      3,
+      4,
+      6,
+      7
+    ]
+  },
+  "timestamp": "2025-08-20T14:10:08.974737",
+  "split_sizes": {
+    "classifier1_train": 1869,
+    "classifier1_test": 468,
+    "classifier2_train": 984,
+    "classifier2_test": 247,
+    "classifier3_train": 86,
+    "classifier3_test": 22
+  }
+}
